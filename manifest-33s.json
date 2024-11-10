@@ -1,4 +1,28 @@
 {
+  "name": "iTakePics 33s Version",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "./iTakePics_33s.ino.bootloader.bin",
+          "offset": 4096
+        },
+        {
+          "path": "./iTakePics_33s.ino.bin",
+          "offset": 65536
+        },
+        {
+          "path": "./iTakePics_33s.ino.partitions.bin",
+          "offset": 32768
+        }
+
+
+
+
+
+{
         "name": "ESP32",
         "new_install_prompt_erase": true,
         "builds":
