@@ -17,22 +17,9 @@
           "path": "./iTakePics_33s.ino.partitions.bin",
           "offset": 32768
         }
-
-
-
-
-
-{
-        "name": "ESP32",
-        "new_install_prompt_erase": true,
-        "builds":
-        [
-                {
-                        "chipFamily": "ESP32",
-                        "parts":
-                        [
-                        { "path": "iTakePics_33s.bin", "offset": 0 }
-                        ]
-                }
-        ]
+    }
 }
+
+
+
+
