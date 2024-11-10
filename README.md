@@ -1,5 +1,5 @@
 # iTakePics
-Simple Intervalometer for iPhones with an ESP32
+Simple Bluetooth Intervalometer for iPhones or Android with an cheap ESP32
 
 Just take a cheap ESP32 and flash him over the Browser.
 
