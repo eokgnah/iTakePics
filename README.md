@@ -1,33 +1,32 @@
-# iTakePics
-Simple Bluetooth Intervalometer for iPhones or Android with a cheap ESP32
+iTakePics
 
-Just take a ESP32 and flash him over the Browser.
+Simple Bluetooth Intervalometer for iPhones and Android using an affordable ESP32
 
-* Zero configuration neened
-* Zero programming needed
-* Zero soldering needed
+Simply use an ESP32 and flash it through your browser.
+
+* No configuration needed
+* No programming needed
+* No soldering needed
 
 Steps:
-1. klick the WEB-Installer <a href="https://eokgnah.github.io/iTakePics/iTakePics_Web_Installer.html">HERE</a> with Chrome or Edge.
-2. connect the ESP32 with a usb cable to your computer. (if needed push the boot button while plugging in)
-3. select the wanted delay version you want. (at the moment there is only a 33s version)
-4. klick "CONNECT"
-5. select the com-port of the ESP32. (if unsure, unplug and replug the usb cable and look which com port left and joined again)
-6. klick "install iTakePics"
-7. klick "INSTALL" again for confirmation
-8. let him do the magic
-9. done
-10. reboot the ESP32, look for a iTakePics bluetooth device on your mobile
-11. connect to it and it will get a button press "volume up" every 33 seconds to trigger a picture
-12. open your camera app and the "volume up" will trigger taking a picture like you press the "volume up" button yourself
 
-Hardware:
-ESP32 - D1 Mini - for example https://de.aliexpress.com/item/1005007467718708.html
+1. Click on the WEB-Installer link <a href="https://eokgnah.github.io/iTakePics/iTakePics_Web_Installer.html">HERE</a> using Chrome or Edge.
+2. Connect the ESP32 to your computer with a USB cable. (If necessary, hold down the boot button while plugging it in.)
+3. Choose the desired delay version. (Currently, only a 33-second version is available.)
+4. Click “CONNECT.”
+5. Select the COM port of the ESP32. (If unsure, unplug and replug the USB cable to see which COM port disappears and appears.)
+6. Click “Install iTakePics.”
+7. Click “INSTALL” again to confirm.
+8. Let it work its magic.
+9. Done! Reboot the ESP32, then look for an "iTakePics" Bluetooth device on your mobile.
+10. Connect to it, and it will trigger a "volume up" button press every 33 seconds to take a picture.
+11. Open your camera app, and each "volume up" will trigger the shutter as if you pressed the button yourself.
 
-Versions:
-v2024111001: initial Version - 33 Seconds fixed - ideal for nightime photogra
+Hardware: ESP32 - for example, here’s a link to a D1 mini: https://de.aliexpress.com/item/1005007467718708.html
 
-ToDo:
-* More zero configuration versions for different intervals.
-* A version with a small oled display and a rotary knob to select custom intervals.
-  <a href="https://youtu.be/gfzHsvtZ4U0">prototype ;-)</a>
+Version: v2024111001: Initial version - fixed at 33 seconds, ideal for nighttime photography.
+
+To-Do:
+
+* Add more zero-configuration versions with different intervals.
+* Develop a version with a small OLED display and rotary knob for custom intervals. (Prototype in progress!) <a href="https://youtu.be/gfzHsvtZ4U0">You may take a peek</a>
